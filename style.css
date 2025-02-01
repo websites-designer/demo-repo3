@@ -4,4 +4,20 @@ body{
     align-items: center;
     background: cyan;
     height: 100vh;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+button:hover{
+    cursor: pointer;
 }
